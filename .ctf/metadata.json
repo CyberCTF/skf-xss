@@ -4,11 +4,5 @@
   "question": "Craft input that makes the page run your own JavaScript in the visitor's browser (reflected cross-site scripting).",
   "category": "WEB",
   "difficulty": 1,
-  "evidence_kind": "SECRET",
-  "capabilities": [
-    "xss",
-    "reflected-xss",
-    "javascript",
-    "client-side"
-  ]
+  "evidence_kind": "SECRET"
 }
