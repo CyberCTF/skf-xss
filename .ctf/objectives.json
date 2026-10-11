@@ -1,0 +1,43 @@
+{
+  "objectives": [
+    {
+      "key": "main",
+      "title": "Read the flag",
+      "prompt": "Run your own JavaScript in the page and retrieve the flag (/ctf/flag).",
+      "check": {
+        "evidence": "SECRET",
+        "format": "FLAG{%s}"
+      },
+      "dev": "FLAG{dev-skf-xss}",
+      "hints": [
+        "The submitted text comes back in the HTML response.",
+        "Read about reflected cross-site scripting and output encoding."
+      ],
+      "steps": [
+        {
+          "key": "param",
+          "title": "Find the input",
+          "prompt": "Which form field is reflected? (field name)",
+          "check": {
+            "answer": [
+              "string"
+            ]
+          }
+        },
+        {
+          "key": "class",
+          "title": "Name the weakness",
+          "prompt": "What class of vulnerability is this?",
+          "check": {
+            "answer": [
+              "reflected xss",
+              "xss",
+              "reflected cross-site scripting",
+              "cross-site scripting"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "title": "OWASP SKF Reflected Cross-Site Scripting",
   "description": "A Flask page with a text form. The submitted value is rendered back into the HTML response without output encoding.",
-  "question": "Craft input that makes the page run your own JavaScript in the visitor's browser (reflected cross-site scripting).",
+  "question": "Make the page run your own JavaScript in the visitor's browser (reflected XSS). The flag is in /ctf/flag; client-side lab.",
   "category": "WEB",
   "difficulty": 1,
   "evidence_kind": "SECRET"
