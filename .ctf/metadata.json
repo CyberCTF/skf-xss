@@ -1,8 +1,11 @@
 {
+  "project_name": "cyberlabs-skf-xss",
+  "slug": "skf-xss",
   "title": "OWASP SKF Reflected Cross-Site Scripting",
   "description": "A Flask page with a text form. The submitted value is rendered back into the HTML response without output encoding.",
-  "question": "Make the page run your own JavaScript in the visitor's browser (reflected XSS). The flag is in /ctf/flag; client-side lab.",
-  "category": "WEB",
+  "category": "web",
   "difficulty": 1,
-  "evidence_kind": "SECRET"
+  "evidence_kind": "SECRET",
+  "capabilities": [],
+  "question": "Make the page run your own JavaScript in the visitor's browser (reflected XSS). The flag is in /ctf/flag; client-side lab."
 }
