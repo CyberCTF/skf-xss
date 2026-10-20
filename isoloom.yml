@@ -30,9 +30,7 @@ machines:
     setup:
       - ctf/flag.sh
     app:
-      build:
-        context: app
-        dockerfile: build/web/Dockerfile
+      build: app
 
 checks:
   - name: the lab answers
